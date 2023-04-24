@@ -11,7 +11,7 @@ import { getFilePaths } from "./utilities";
 import I18nDiagnosticProvider from "./I18nDiagnosticProvider";
 
 export function activate(context: vscode.ExtensionContext) {
-  console.log("Shopify i18n activted");
+  console.log("Shopify i18n activated");
   const fileTypes =
     vscode.workspace
       .getConfiguration("shopifyI18n")
